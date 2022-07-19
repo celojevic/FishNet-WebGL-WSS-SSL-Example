@@ -1,14 +1,9 @@
-using FishNet;
-using FishNet.Broadcast;
 using FishNet.Object;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 public class EchoCanvas : NetworkBehaviour
 {
-
     [SerializeField] private TMP_Text _text = null;
     [SerializeField] private TMP_InputField _input = null;
 
@@ -49,10 +44,4 @@ public class EchoCanvas : NetworkBehaviour
     {
         _text.text += msg.Text + "\n";
     }
-
-}
-
-public struct ChatMsg : IBroadcast
-{
-    public string Text;
 }

@@ -1,8 +1,6 @@
 using FishNet.Transporting.Bayou;
 using FishNet.Transporting.Multipass;
 using FishNet.Transporting.Tugboat;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TransportSetter : MonoBehaviour

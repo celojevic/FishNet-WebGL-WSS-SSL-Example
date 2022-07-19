@@ -424,9 +424,10 @@ MonoBehaviour:
   _disableOnDespawn: 0
   NetworkObserver: {fileID: 0}
   <PrefabId>k__BackingField: -1
-  _scenePathHash: 1622332376
-  <SceneId>k__BackingField: 6967864500022425329
+  _scenePathHash: 2758682558
+  <SceneId>k__BackingField: 11848451367432848541
   _sceneNetworkObjects:
+  - {fileID: 0}
   - {fileID: 1395108268}
 --- !u!114 &1395108269
 MonoBehaviour:
